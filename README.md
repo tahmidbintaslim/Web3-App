@@ -28,7 +28,7 @@ source .venv/bin/activate
 pip install "web3>=6,<7" redis python-dotenv flask
 ```
 
-Create a `.env` file in the repo root (it is gitignored):
+Copy `.env.example` to `.env` in the repo root (`.env` is gitignored) and fill it in:
 
 ```
 INFURA_PROJECT_ID=...
